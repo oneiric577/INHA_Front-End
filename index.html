@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 포트폴리오</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container nav__inner">
+                <a href="#hero" class="logo">KSS's Portfolio</a>
+                <ul class="nav__links">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#archiving">ARCHIVING</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>- 김성수 -</h1>
+            <p>Front-End 개발실습 포트폴리오</p>
+            
+        </div>
+    </section>
+
+    <section id="about" class="section-card">
+        <div class="container">
+            <h2 class="about__title section-title">ABOUT ME</h2>
+            <div class="about__grid">
+                <div class="about__column">
+                    <div class="about__item">
+                        <span class="about__icon">👤</span>
+                        <div class="about__text">
+                            <div class="about__label">이름</div>
+                            <div class="about__value">김성수</div>
+                        </div>
+                    </div>
+                    <div class="about__item">
+                        <span class="about__icon">📞</span>
+                        <div class="about__text">
+                            <div class="about__label">연락처</div>
+                            <div class="about__value">010-xxxx-xxxx</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="about__item">
+                        <span class="about__icon">📅</span>
+                        <div class="about__text">
+                            <div class="about__label">생년월일</div>
+                            <div class="about__value">01.09.07</div>
+                        </div>
+                    </div>
+                    <div class="about__item">
+                        <span class="about__icon">✉️</span>
+                        <div class="about__text">
+                            <div class="about__label">이메일</div>
+                            <div class="about__value">tjdtn00_01@naver.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="about__item">
+                        <span class="about__icon">📍</span>
+                        <div class="about__text">
+                            <div class="about__label">위치</div>
+                            <div class="about__value">인천광역시 계양구</div>
+                        </div>
+                    </div>
+                    <div class="about__item">
+                        <span class="about__icon">🎓</span>
+                        <div class="about__text">
+                            <div class="about__label">학력</div>
+                            <div class="about__value">인하공업전문대학교<br>컴퓨터정보공학과(재학중)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="archiving">
+        <div class="container">
+            <h2 class="archiving__title">ARCHIVING</h2>
+            <div class="archiving__grid">
+                <a class="archive" href="https://github.com/oneiric577" target="_blank" rel="noopener">
+                    <div class="archive__thumb">
+                        <img src="images/github.jpg" alt="GitHub" />
+                    </div>
+                    <div class="archive__body">
+                        <div class="archive__link">github.com/oneiric577</div>
+                        <p class="archive__desc">소스 코드 저장소</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-card">
+        <div class="container">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="projects__grid">
+                <article class="project">
+                    <h3>한과 판매 사이트 제작</h3>
+                    <p>jsp로 제작한 개인 포트폴리오</p>
+                    <div class="project__links">
+                        <a href="javascript:void(0)" onclick="openImageGallery()">이미지</a>
+                        <a href="https://github.com/oneiric577/Traditional_Korean_Sweets" target="_blank">GitHub</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <h3>퍼스널 컬러 진단 AI 모델&사이트 제작</h3>
+                    <p>Colab을 이용하여 학습된 모델, HTML 기반으로 제작된 사이트</p>
+                    <div class="project__links">
+                        <a href="javascript:void(0)" onclick="openAIGallery()">이미지</a>
+                        <a href="https://github.com/oneiric577/PersonalColor_AI/blob/main/README.md" target="_blank">GitHub</a>
+                    </div>
+                </article>               
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-card">
+        <div class="container">
+            <h2 class="section-title">SKILLS</h2>
+            <ul class="skills__list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Git/GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section-card">
+        <div class="container">
+            <h2 class="section-title">CONTACT</h2>
+            <p>E-mail: tjdtn00_01@naver.com</p>
+            <p>GitHub: <a href="https://github.com/oneiric577" target="_blank">github.com/oneiric577</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 KSS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="맨 위로">↑</button>
+
+    <!-- Image Gallery Modal -->
+    <div id="imageGallery" class="gallery-modal">
+        <div class="gallery-content">
+            <span class="gallery-close" onclick="closeImageGallery()">&times;</span>
+            <div class="gallery-slides">
+                <div class="gallery-slide active">
+                    <img src="images/hangwa1.png" alt="한과 사이트 이미지 1">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/hangwa2.png" alt="한과 사이트 이미지 2">
+                </div>
+            </div>
+            <div class="gallery-controls">
+                <button class="gallery-prev" onclick="changeSlideImage(-1)">❮</button>
+                <button class="gallery-next" onclick="changeSlideImage(1)">❯</button>
+            </div>
+            <div class="gallery-indicators">
+                <span class="gallery-dot active" onclick="currentSlideImage(1)"></span>
+                <span class="gallery-dot" onclick="currentSlideImage(2)"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Gallery Modal -->
+    <div id="aiGallery" class="gallery-modal">
+        <div class="gallery-content">
+            <span class="gallery-close" onclick="closeAIGallery()">&times;</span>
+            <div class="gallery-slides">
+                <div class="gallery-slide active">
+                    <img src="images/ai1.png" alt="퍼스널 컬러 AI 이미지 1">
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/ai2.png" alt="퍼스널 컬러 AI 이미지 2">
+                </div>
+            </div>
+            <div class="gallery-controls">
+                <button class="gallery-prev" onclick="changeSlideAI(-1)">❮</button>
+                <button class="gallery-next" onclick="changeSlideAI(1)">❯</button>
+            </div>
+            <div class="gallery-indicators">
+                <span class="gallery-dot active" onclick="currentSlideAI(1)"></span>
+                <span class="gallery-dot" onclick="currentSlideAI(2)"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
