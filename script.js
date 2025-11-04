@@ -37,7 +37,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     var offsetTop = target.offsetTop - 72;
     
     // 부드러운 스크롤 애니메이션 (800ms)
-    smoothScrollTo(offsetTop, 800);
+    smoothScrollTo(offsetTop, 700);
   });
 });
 
@@ -163,4 +163,5 @@ window.addEventListener('scroll', function() {
       link.classList.remove('active');
     }
   });
+
 });
